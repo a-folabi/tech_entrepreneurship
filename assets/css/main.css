@@ -2684,6 +2684,7 @@ input, select, textarea {
 	header p {
 		position: relative;
 		margin: 0 0 1.5em 0;
+		text-align: center;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -2755,14 +2756,14 @@ input, select, textarea {
 
 		.spotlight .image {
 			width: 30%;
-			border-radius: 100%;
+			border-radius: 10%;
 			margin: 0 3em 0 0;
 			display: block;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 10%;
 				width: 100%;
 			}
 
@@ -3173,7 +3174,7 @@ input, select, textarea {
 				.wrapper.style2 button.primary,
 				.wrapper.style2 .button.primary {
 					box-shadow: none;
-					background-color: #4696e5;
+					background-color: black;
 					color: #ffffff !important;
 				}
 
@@ -3611,10 +3612,10 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		background-color: #4696e5;
-		background-image: url("../../images/bg2.jpg");
+		background-color: black;
+		background-image: url("../../images/netflix_header.jpg");
 		color: #d1e5f9;
-		padding: 4.5em 0 2.5em 0 ;
+		padding: 0 0 0 0 ;
 		-moz-align-items: center;
 		-webkit-align-items: center;
 		-ms-align-items: center;
@@ -3632,7 +3633,9 @@ input, select, textarea {
 		background-attachment: fixed, fixed;
 		background-size: auto, cover;
 		height: 50vh;
-		min-height: 35em;
+		background-repeat: no-repeat;
+		min-height: 30em;
+		
 	}
 
 		#header input[type="submit"],
@@ -3893,7 +3896,7 @@ input, select, textarea {
 
 			#header {
 				/*background-image: url("images/overlay.png"), url("images/pattern-size2.svg");*/
-				background-image: url("../../images/bg2.jpg");
+				background-image: url("../../images/netflix_header.jpg");
 				background-repeat: no-repeat;
 			}
 
@@ -3946,7 +3949,7 @@ input, select, textarea {
 
 			#header {
 				/*background-image: url("images/overlay.png"), url("images/pattern-size3.svg");*/
-				background-image: url("../../images/bg2.jpg");
+				background-image: url("../../images/netflix_header.jpg");
 				background-repeat: no-repeat;
 			}
 
